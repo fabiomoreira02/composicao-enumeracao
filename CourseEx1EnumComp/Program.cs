@@ -53,7 +53,7 @@ namespace CourseEx1EnumComp
 
 			Console.WriteLine("Name: " + worker.Name);
 			Console.WriteLine("Departament: " + worker.Departament.Name);
-			Console.Write("Income for: " + monthAndYear + ": " + worker.Income(year, month));
+			Console.Write("Income for: " + monthAndYear + ": " + worker.Income(year, month).ToString("F2"), CultureInfo.InvariantCulture);
 
 
 			Console.ReadLine();
