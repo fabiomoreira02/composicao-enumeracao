@@ -29,7 +29,7 @@ namespace CourseEx1EnumComp
 			Console.Write("How many contracts to this worker? ");
 			int n = int.Parse(Console.ReadLine());
 
-			for(int i = 1; i <= 3; i++)
+			for(int i = 1; i <= n; i++)
 			{
 				Console.WriteLine($"Enter {i} contract data:");
 				Console.Write("Date (DD/MM/YYYY) ");
